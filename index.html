@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sally's Resume</title>
+    </head>
+    <body>
+        <div id="application-root"></div>
+      
+      <script
+        src="https://unpkg.com/react@16/umd/react.development.js">
+      </script>
+      <script
+        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+      </script>
+      <script
+      src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+     <script type="text/babel">
+        ReactDOM.render(
+          <div>
+            <img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="Sample Image for Sally"/>
+            <h2>123 Main Street, TX, 76112</h2>
+            <h3>sallydoe@bmail.com</h3>
+            <h3>(555) 123-1234</h3>
+            <h4>Profile</h4>
+            <p>A student work to try and learn JS Development</p>
+            <h4>Education</h4>
+            <p>Tarrant County College 2016</p>
+            <h4>Skills</h4>
+            <p>HTML/CSS/JavaScript</p>
+            <p>RegEx</p>
+            <p>Reverse Proxy Modification</p>
+        
+          </div>,
+          document.querySelector('#application-root')
+        );
+      </script>
+      </body>
+</html>
